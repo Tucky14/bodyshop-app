@@ -1,0 +1,721 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-size:16px;
+}
+
+/* Header */
+
+header{
+	display: inline;
+}
+
+.headerContainer{
+	border-bottom: /* was #979797 or #575757 */ rgba(0,0,0,0.8) 2px solid;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.logo{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.aboutHeader{
+    width: 10%;
+    float: right;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.aboutHeader a:hover{
+    color: #3bb7bd;
+}
+
+.aboutHeader a{
+    color: #000;
+    font-style: none;
+    text-decoration: none;
+}
+
+/* Body */
+
+body{
+	font-family: 'Droid Sans', Tahoma, Verdana, Arial;
+	background-color: #303030;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    color: rgba(255,255,255,0.8);
+}
+
+p{
+    color: rgba(255,255,255,0.8);
+}
+
+.container{
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+/* Footer */
+
+.footerContainer{
+    border-top: rgba(0,0,0,0.8) 2px solid;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.iconContainer{
+    width: 20%;
+    margin: auto;
+    position: relative;
+}
+
+.homeIcon{
+    text-align: center;
+    height: 71px;
+    margin: auto;
+}
+
+.magIcon{
+    text-align: center;
+    height: 58px;
+    margin: auto;
+}
+
+.newsIcon{
+    text-align: center;
+    height: 64px;
+    margin: auto;
+}
+
+.eventIcon{
+    text-align: center;
+    height: 80px;
+    margin: auto;
+}
+
+.socialIcon{
+    text-align: center;
+    height: 80px;
+    margin: auto;
+}
+
+/* Footer Hover */
+
+/*     NOT IN USE
+.footerContainerHover{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+}*/
+
+.homeIconHover{
+    text-align: center;
+    height: 71px;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.iconContainer:hover .homeIconHover{
+    opacity: 1;
+  }
+
+.iconContainer:hover .homeIcon{
+    opacity: 0;
+}
+
+.magIconHover{
+    text-align: center;
+    height: 58px;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.iconContainer:hover .magIconHover{
+    opacity: 1;
+  }
+
+.iconContainer:hover .magIcon{
+    opacity: 0;
+}
+
+.newsIconHover{
+    text-align: center;
+    height: 64px;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.iconContainer:hover .newsIconHover{
+    opacity: 1;
+  }
+
+.iconContainer:hover .newsIcon{
+    opacity: 0;
+}
+
+.eventIconHover{
+    text-align: center;
+    height: 80px;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.iconContainer:hover .eventIconHover{
+    opacity: 1;
+  }
+
+.iconContainer:hover .eventIcon{
+    opacity: 0;
+}
+
+.socialIconHover{
+    text-align: center;
+    height: 80px;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.iconContainer:hover .socialIconHover{
+    opacity: 1;
+  }
+
+.iconContainer:hover .socialIcon{
+    opacity: 0;
+}
+
+/* Home Page */
+
+.home {
+	display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.home a{
+    color: #fff;
+    font-style: none;
+    text-decoration: none;
+}
+
+.homeMag{
+	text-align: center;
+	background: url("images/0517 May front cover.jpg") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+.homeNews{
+	text-align: center;
+	background: url("images/News Papers img.jpg") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+.homeEvent{
+	text-align: center;
+	background: url("images/Event img.jpg") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+.homeSocial{
+	text-align: center;
+	background: url("images/homeSocial img white.jpg") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+/* Image overlay (home) */
+
+ .overlay{
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .overlay:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    background-size: cover;
+    height: 10rem;
+  }
+  
+  .overlay:hover:before{
+    background: none;
+  }
+
+/* Magazine Page */
+
+.magBody{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.magEmbed{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.exitFullscreen{
+    height: 0.3rem;
+    width: 0.3rem;
+    float: right;
+}
+
+/* News Page */
+
+
+
+/* Event Page */
+
+.eventBody{
+    padding: 1rem;
+}
+
+.eventText{
+    text-align: center;
+}
+
+.sponsors{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-top: 2.5px rgba(0,0,0,0.1) solid;
+    border-left: 2.5px rgba(0,0,0,0.1) solid;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+/* Event Page (NOT IN USE) */
+
+.eventEnter{
+	text-align: center;
+	background: url("#") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+.eventAbout{
+	text-align: center;
+	background: url("#") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+/* Social Page */
+
+.socialIcons{
+    height: 100%;
+    line-height: 100%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.socialTwitter{
+	text-align: center;
+    height: 100%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socialFacebook{
+	text-align: center;
+    height: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socialLinkedIn{
+	text-align: center;
+    height: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Social Page 2 */
+
+.social2twitter{
+	text-align: center;
+	background: url("images/Twitter Icon edit.png") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+.social2facebook{
+	text-align: center;
+	background: url("images/Facebook Icon edit.png") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+.social2linkedin{
+	text-align: center;
+	background: url("images/LinkedIn Icon edit.png") no-repeat center center;
+	background-size: cover;
+	color: /* was #fff */rgba(255,255,255,0.95);
+    /* 'text-stroke:' currently experimental */
+    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+	border-bottom: rgba(0,0,0,0.8) 2px solid;
+}
+
+.social2 {
+	display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.social2 a{
+    color: #fff;
+    font-style: none;
+    text-decoration: none;
+}
+
+.social2overlay{
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .social2overlay:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    background-size: cover;
+    height: 10rem;
+  }
+  
+  .social2overlay:hover:before{
+    background: none;
+  }
+
+/* About Page */
+
+
+
+
+
+/*   display: flex;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;  */
+
+
+
+
+/*  Bootstrap  */
+
+.jumbotron{
+	
+}
+
+
+
+
+
+/*  
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+
+
+.main {
+  text-align: center;
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 150px;
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.supporting {
+  background-color: #1c1c1c;
+  padding: 50px 0 80px;
+  text-align: center;
+}
+
+
+
+.supporting .col {
+  float: left;
+  padding: 10px;
+  width: 28%;
+}
+
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+.feature {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.feature .container {
+  position: relative;
+  top: 200px;
+}
+
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin:0;
+  padding:50px 0 0;
+}
+
+
+
+.footer {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.footer .container {
+  position: relative;
+  top: 200px;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.footer .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background:#ffa800;
+  color:#000;
+}  
+*/
