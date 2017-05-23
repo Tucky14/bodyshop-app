@@ -260,7 +260,7 @@ p{
 
 .homeMag{
 	text-align: center;
-	background: url("images/0517 May front cover.jpg") no-repeat center center;
+	background: url("0517 May front cover.jpg") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -274,7 +274,7 @@ p{
 
 .homeNews{
 	text-align: center;
-	background: url("images/News Papers img.jpg") no-repeat center center;
+	background: url("News Papers img.jpg") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -288,7 +288,7 @@ p{
 
 .homeEvent{
 	text-align: center;
-	background: url("images/Event img.jpg") no-repeat center center;
+	background: url("Event img.jpg") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -302,7 +302,7 @@ p{
 
 .homeSocial{
 	text-align: center;
-	background: url("images/homeSocial img white.jpg") no-repeat center center;
+	background: url("homeSocial img white.jpg") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -457,7 +457,7 @@ p{
 
 .social2twitter{
 	text-align: center;
-	background: url("images/Twitter Icon edit.png") no-repeat center center;
+	background: url("Twitter Icon edit.png") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -471,7 +471,7 @@ p{
 
 .social2facebook{
 	text-align: center;
-	background: url("images/Facebook Icon edit.png") no-repeat center center;
+	background: url("Facebook Icon edit.png") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -485,7 +485,7 @@ p{
 
 .social2linkedin{
 	text-align: center;
-	background: url("images/LinkedIn Icon edit.png") no-repeat center center;
+	background: url("LinkedIn Icon edit.png") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
