@@ -108,19 +108,19 @@ p{
 
 .homeIcon{
     text-align: center;
-    height: 71px;
+    height: 80px;
     margin: auto;
 }
 
 .magIcon{
     text-align: center;
-    height: 58px;
+    height: 80px;
     margin: auto;
 }
 
 .newsIcon{
     text-align: center;
-    height: 64px;
+    height: 80px;
     margin: auto;
 }
 
@@ -151,7 +151,7 @@ p{
 
 .homeIconHover{
     text-align: center;
-    height: 71px;
+    height: 80px;
     margin: auto;
     opacity: 0;
     position: absolute;
@@ -170,7 +170,7 @@ p{
 
 .magIconHover{
     text-align: center;
-    height: 58px;
+    height: 80px;
     margin: auto;
     opacity: 0;
     position: absolute;
@@ -189,7 +189,7 @@ p{
 
 .newsIconHover{
     text-align: center;
-    height: 64px;
+    height: 80px;
     margin: auto;
     opacity: 0;
     position: absolute;
@@ -260,7 +260,7 @@ p{
 
 .homeMag{
 	text-align: center;
-	background: url("https://github.com/Tucky14/bodyshop-app/blob/master/0517%20May%20front%20cover.jpg") no-repeat center center;
+	background: url("images/0517 May front cover.jpg") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -274,7 +274,7 @@ p{
 
 .homeNews{
 	text-align: center;
-	background: url("https://github.com/Tucky14/bodyshop-app/blob/master/News%20Papers%20img.jpg") no-repeat center center;
+	background: url("images/News Papers img.jpg") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -288,7 +288,7 @@ p{
 
 .homeEvent{
 	text-align: center;
-	background: url("https://github.com/Tucky14/bodyshop-app/blob/master/Event%20img.jpg") no-repeat center center;
+	background: url("images/Event img.jpg") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -302,7 +302,7 @@ p{
 
 .homeSocial{
 	text-align: center;
-	background: url("https://github.com/Tucky14/bodyshop-app/blob/master/homeSocial%20img%20white.jpg") no-repeat center center;
+	background: url("images/homeSocial img white.jpg") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -366,10 +366,15 @@ iframe{
 
 .eventBody{
     padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .eventText{
     text-align: center;
+    max-width: 56rem;
 }
 
 .sponsors{
@@ -378,52 +383,34 @@ iframe{
     border-left: 2.5px rgba(0,0,0,0.1) solid;
     border-bottom: 0;
     border-right: 0;
-}
-
-/* Event Page (NOT IN USE) */
-
-.eventEnter{
-	text-align: center;
-	background: url("#") no-repeat center center;
-	background-size: cover;
-	color: /* was #fff */rgba(255,255,255,0.95);
-    /* 'text-stroke:' currently experimental */
-    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
-    height: 10rem;
-    line-height: 10rem;
-    margin: 0;
-    padding: 0;
-	border-bottom: rgba(0,0,0,0.8) 2px solid;
-}
-
-.eventAbout{
-	text-align: center;
-	background: url("#") no-repeat center center;
-	background-size: cover;
-	color: /* was #fff */rgba(255,255,255,0.95);
-    /* 'text-stroke:' currently experimental */
-    text-shadow: -1px -1px 0 #000,-1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
-    height: 10rem;
-    line-height: 10rem;
-    margin: 0;
-    padding: 0;
-	border-bottom: rgba(0,0,0,0.8) 2px solid;
+    max-width: 56rem;
 }
 
 /* Social Page */
+
+ul{
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+li{
+    list-style: none;
+    list-style-type: none;
+}
 
 .socialIcons{
     height: 100%;
     line-height: 100%;
     margin-top: 50%;
     margin-bottom: 50%;
+    padding-right: 2.5rem;
 }
 
 .socialTwitter{
 	text-align: center;
     height: 100%;
-    padding-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -432,6 +419,7 @@ iframe{
 .socialFacebook{
 	text-align: center;
     height: 100%;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -441,7 +429,7 @@ iframe{
 .socialLinkedIn{
 	text-align: center;
     height: 100%;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -451,7 +439,7 @@ iframe{
 
 .social2twitter{
 	text-align: center;
-	background: url("https://github.com/Tucky14/bodyshop-app/blob/master/Twitter%20Icon%20edit.png") no-repeat center center;
+	background: url("images/Twitter Icon edit.png") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -465,7 +453,7 @@ iframe{
 
 .social2facebook{
 	text-align: center;
-	background: url("https://github.com/Tucky14/bodyshop-app/blob/master/Facebook%20Icon%20edit.png") no-repeat center center;
+	background: url("images/Facebook Icon edit.png") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -479,7 +467,7 @@ iframe{
 
 .social2linkedin{
 	text-align: center;
-	background: url("https://github.com/Tucky14/bodyshop-app/blob/master/LinkedIn%20Icon%20edit.png") no-repeat center center;
+	background: url("images/LinkedIn Icon edit.png") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
