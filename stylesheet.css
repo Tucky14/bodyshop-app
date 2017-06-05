@@ -247,7 +247,7 @@ p{
 
 .homeMag{
 	text-align: center;
-	background: url("bodyshop-app/0517 May front cover.jpg") no-repeat center center;
+	background: url("![magazine](bodyshop-app/0517 May front cover.jpg)") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -261,7 +261,7 @@ p{
 
 .homeNews{
 	text-align: center;
-	background: url("bodyshop-app/News Papers img.jpg") no-repeat center center;
+	background: url("![recent news](bodyshop-app/News Papers img.jpg)") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -275,7 +275,7 @@ p{
 
 .homeEvent{
 	text-align: center;
-	background: url("bodyshop-app/Event img.jpg") no-repeat center center;
+	background: url("![event](bodyshop-app/Event img.jpg)") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
@@ -289,7 +289,7 @@ p{
 
 .homeSocial{
 	text-align: center;
-	background: url("bodyshop-app/homeSocial img white.jpg") no-repeat center center;
+	background: url("![social media](bodyshop-app/homeSocial img white.jpg)") no-repeat center center;
 	background-size: cover;
 	color: /* was #fff */rgba(255,255,255,0.95);
     /* 'text-stroke:' currently experimental */
